@@ -1,0 +1,104 @@
+﻿@using IsRotasiProje.Classes;
+@using IsRotasiProje.ViewModel;
+@{
+    Layout = "_LayoutLogin";
+}
+
+<partial name="_PartialProfileSidebar" />
+@model List<Ilan>
+
+<div class="container-login100" style="background-image:url('/images/bg-02.jpg');">
+
+
+    <table class="table table-dark table-striped" style="margin-left:240px;margin-bottom:300px;width:75%;">
+        <thead>
+            <tr>
+                <th>İlan Kodu</th>
+                <th>İlan Adı</th>
+                <th>İlan Kategorisi</th>
+                <th>Pozisyon</th>
+                <th>Tarih</th>
+                <th>İlan Detay</th>
+                <th>Başvuranlar</th>
+                <th>İlanı Sil</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.IlanId</th>
+                    <th>@item.IlanAd</th>
+                    <td>@item.Kategori.KategoriIsim</td>
+                    <td>@item.Pozisyon.PozisyonIsim</td>
+                    <td>@DateWriting.DateWrite(item.Tarih)</td>
+                    <td><a class="btn btn-primary" asp-controller="JobList" asp-action="JobDetails" asp-route-ilanId="@item.IlanId">Detay </a></td>
+                    <td><a class="btn btn-success" asp-controller="Profile" asp-action="IlanBasvurular" asp-route-ilanId="@item.IlanId">Başvurular </a></td>
+                    <td><a class="btn btn-outline-danger btnSil" data-toggle="modal" data-target="#exampleModal" data-ilanAdi="@item.IlanAd" data-ilanId="@item.IlanId">Sil</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+
+@section body
+    {
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">İlan sil</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="mesaj"> </p>
+                    <p class="hata"> </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">İptal</button>
+                    <button type="button" class="btn btn-primary ilanSil">Evet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+@section scripts
+    {
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(".btnSil").click(function () {
+            $(".modal-body>p.hata").html = "";
+            var ilan = $(this).attr("data-ilanAdi");
+            $(".modal-body>p.mesaj").html(ilan + " ilanı silinsin mi?");
+            var ilanID = $(this).attr("data-ilanId");
+            $(".ilanSil").data("ilanID", ilanID);
+
+        });
+
+        $(".ilanSil").click(function () {
+            var id = $(this).data("ilanID");
+            $.ajax({
+                type: "POST",
+                url: "/Profile/IlanSil/" + id,
+                success: function (param) {
+                    if (param == 1) {
+                        window.location.replace("/Profile/IsverenIlanlar");
+                    }
+                    else {
+                        $(".modal-body>p.hata").html("Hata nedeniyle silinemedi");
+                    }
+
+                }
+            })
+
+        });
+    </script>
+}

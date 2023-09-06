@@ -1,0 +1,91 @@
+﻿@using IsRotasiProje.Classes;
+@using IsRotasiProje.ViewModel;
+@{
+    Layout = "_LayoutAdmin";
+}
+@model List<Ilan>
+
+<div class="main-content">
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="overview-wrap">
+                        <h2 class="title-1">Genel Bakış</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row m-t-25">
+                <div class="col-sm-6 col-lg-6">
+                    <div class="overview-item overview-item--c1">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="zmdi zmdi-account-o"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.user</h2>
+                                    <span>Üye Sayısı</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="overview-item overview-item--c3">
+                        <div class="overview__inner">
+                            <div class="overview-box clearfix">
+                                <div class="icon">
+                                    <i class="zmdi zmdi-calendar-note"></i>
+                                </div>
+                                <div class="text">
+                                    <h2>@ViewBag.ilan</h2>
+                                    <span>İş İlanı Sayısı</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="title-1 m-b-25">En Son Oluşturulan İlanlar</h2>
+                    <div class="table-responsive table--no-card m-b-40">
+                        <table class="table table-borderless table-striped table-earning">
+                            <thead>
+                                <tr>
+                                    <th>Oluşturulma Tarihi</th>
+                                    <th>İlan ID</th>
+                                    <th>İlan Ad</th>
+                                    <th>İşveren ismi</th>
+                                    <th>ilan kategorisi</th>
+                                    <th>İlan Detayları</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@DateWriting.DateWrite(item.Tarih)</td>
+                                        <td>@item.IlanId</td>
+                                        <td>@item.IlanAd</td>
+                                        <td>@item.User.Ad</td>
+                                        <td>@item.Kategori.KategoriIsim</td>
+                                        <td><a class="btn btn-outline-primary" asp-controller="JobList" asp-action="JobDetails" asp-route-ilanId="@item.IlanId">Detay </a></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

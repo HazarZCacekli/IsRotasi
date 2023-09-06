@@ -1,0 +1,270 @@
+﻿@using IsRotasiProje.Classes;
+@using IsRotasiProje.ViewModel;
+@model List<Ilan>
+
+<main>
+
+            <section class="hero-section d-flex justify-content-center align-items-center">
+                <div class="section-overlay"></div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                            <div class="hero-section-text mt-5">
+                                <h6 class="text-white">Hayalinizdeki işi mi arıyorsunuz?</h6>
+
+                                <h1 class="hero-title text-white mt-4 mb-4">Sizin için o <br> işi bulacağız.</h1>
+
+                                <a href="#job-section" class="custom-btn custom-border-btn btn">İlanlarımızı İnceleyin</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <form class="custom-form hero-form" asp-controller="JobList" asp-action="Index" method="get" role="form">
+                                <input type="hidden" value="1" name="page">
+
+                                <h3 class="text-white mb-3">Hayalinizdeki işi arayın</h3>
+
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="input-group">
+                                            <span class="input-group-text" id="basic-addon1"><i class="bi-person custom-icon"></i></span>
+                        <select class="form-select form-control" name="kategori" id="job-title" aria-label="Default select example" required>
+                                                <option value="">İş Kategorisi Seçin</option>
+                                        @foreach (Kategori item in ViewBag.Kategori)
+                                        {
+                                            <option value="@item.KategoriId">@item.KategoriIsim</option>
+                                        }
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="input-group">
+                                            <span class="input-group-text" id="basic-addon1"><i class="bi-geo-alt custom-icon"></i></span>
+                        <select class="form-select form-control" name="sehir" id="job-location" aria-label="Default select example" required>
+                                        <option value="">Lokasyon Seçin</option>
+                                        @foreach (Sehir item in ViewBag.Sehir)
+                                        {
+                                            <option value="@item.SehirId">@item.SehirIsim</option>
+                                        }
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-12">
+                                        <button type="submit" class="form-control">
+                                            Ara
+                                        </button>
+                                    </div>
+
+                                    <div class="col-12">
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            
+
+
+            <section class="about-section" style="margin-top:100px;">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-12">
+                            <div class="about-image-wrap custom-border-radius-start">
+                                <img src="images/professional-asian-businesswoman-gray-blazer.jpg" class="about-image custom-border-radius-start img-fluid" alt="">
+
+                                <div class="about-info">
+                                    <h4 class="text-white mb-0 me-2">Julia Ward</h4>
+
+                                    <p class="text-white mb-0">Yatırımcı</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="custom-text-block">
+                                <h2 class="text-white mb-2">Hakkımızda Bilgi</h2>
+
+                                <p class="text-white">İşveren ve adaylarımız için tamamen ücretsiz bir imkan sunup onları ihtiyacı oldukları iş arkadaşlarına veya hayal ettikleri işlere yönlendiriyoruz. Bizi ziyaret ettiğiniz için teşekkür ederiz.
+
+                                <div class="custom-border-btn-wrap d-flex align-items-center mt-5">
+                                    <a asp-controller="About" asp-action="Index" class="custom-btn custom-border-btn btn me-4">Bizi Tanıyın</a>
+
+                                    <a asp-controller="JobList" asp-action="Index" asp-route-page="1" class="custom-link smoothscroll">İş İmkanlarını Keşfedin</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-12">
+                            <div class="instagram-block">
+                                <img src="images/horizontal-shot-happy-mixed-race-females.jpg" class="about-image custom-border-radius-end img-fluid" alt="">
+
+                                <div class="instagram-block-text">
+                                    <a href="https://instagram.com/" class="custom-btn btn">
+                                        <i class="bi-instagram"></i>
+                                        İşRotası
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="job-section job-featured-section section-padding" id="job-section">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 text-center mx-auto mb-4">
+                            <h2>Özelleştirilmiş İlanlar</h2>
+
+                            <p><strong>Şu ana kadar yayınlanmış 10.000'in üzerinde</strong> ilan ile sizi hayalinizdeki işe bir adım daha yaklaştırıyoruz.</p>
+                        </div>
+
+                        <div class="col-lg-12 col-12">
+                    @foreach (var item in Model)
+                    {
+                        <div class="job-thumb d-flex">
+                            <div class="job-image-wrap bg-white shadow-lg">
+                                <img src="/images/@item.User.Image" class="job-image img-fluid" alt="">
+                            </div>
+
+                            <div class="job-body d-flex flex-wrap flex-auto align-items-center ms-4">
+                                <div class="mb-3">
+                                    <h4 class="job-title mb-lg-0">
+                                        <a asp-controller="JobList" asp-action="JobDetails" asp-route-ilanId="@item.IlanId" class="job-title-link">@item.IlanAd</a>
+                                    </h4>
+
+                                    <div class="d-flex flex-wrap align-items-center">
+                                        <p class="job-location mb-0">
+                                            <i class="custom-icon bi-geo-alt me-1"></i>
+                                            @item.Sehir.SehirIsim
+                                        </p>
+
+                                        <p class="job-date mb-0">
+                                            <i class="custom-icon bi-clock me-1"></i>
+                                            @DateWriting.DateWrite(item.Tarih)
+                                        </p>
+
+                                        <p class="job-price mb-0">
+                                            <i class="custom-icon bi-cash me-1"></i>
+                                            @item.MaasAraligi.Aralik
+                                        </p>
+
+                                        <div class="d-flex">
+                                            <p class="mb-0">
+                                                <a class="badge badge-level">@item.Pozisyon.PozisyonIsim</a>
+                                            </p>
+
+                                            <p class="mb-0">
+                                                <a class="badge">@item.CalismaSekli.CalismaSekliIsim</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="job-section-btn-wrap">
+                                    <a asp-controller="JobList" asp-action="JobDetails" asp-route-ilanId="@item.IlanId" class="custom-btn btn">Hemen Başvur</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    <div class="col-lg-12 col-12">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center mt-5">
+
+                                <li class="page-item active">
+                                    <a class="page-link" asp-controller="JobList" asp-action="Index" asp-route-page="1">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" aria-current="page" asp-controller="JobList" asp-action="Index" asp-route-page="2">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" aria-current="page" asp-controller="JobList" asp-action="Index" asp-route-page="3">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" asp-controller="JobList" asp-action="Index" asp-route-page="3" aria-label="Next">
+                                        <span aria-hidden="true">Sonraki</span>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </nav>
+                    </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <div class="custom-text-block custom-border-radius-start">
+                                <h2 class="text-white mb-3">İşRotası size iş bulmak için kolay bir yol sağlıyor</h2>
+
+                                <p class="text-white">Kolayca kayıt olup kullanabileceğiniz, oturduğunuz yerden kalkmanıza bile gerek kalmadan istediğiniz türde ilanları inceleyip başvurabilirsiniz. </p>
+
+                                <div class="d-flex mt-4">
+                                    <div class="counter-thumb"> 
+                                        <div class="d-flex">
+                                            <span class="counter-number" data-from="1" data-to="10" data-speed="1000"></span>
+                                            <span class="counter-number-text"> Bin</span>
+                                        </div>
+
+                                        <span class="counter-text">Günlük Aktif Kullanıcı</span>
+                                    </div> 
+
+                                    <div class="counter-thumb">    
+                                        <div class="d-flex">
+                                            <span class="counter-number" data-from="1" data-to="200" data-speed="1000"></span>
+                                            <span class="counter-number-text"> Bin</span>
+                                        </div>
+
+                                        <span class="counter-text">Toplam Oluşturulmuş İlan Sayısı</span>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="video-thumb">
+                                <img src="images/people-working-as-team-company.jpg" class="about-image custom-border-radius-end img-fluid" alt="">
+
+                                <div class="video-info">
+                                    <a href="https://www.youtube.com/tooplate" class="youtube-icon bi-youtube"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            
+
+
+            <partial name="_PartialCommentsSection" />
+
+            <partial name="_PartialBottomBlueSection" />
+            
+        </main>

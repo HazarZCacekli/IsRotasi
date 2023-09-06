@@ -1,0 +1,8 @@
+C:\Users\focac\source\repos\IsRotasiProje\IsRotasiProje\obj\Debug\net7.0\IsRotasi.csproj.AssemblyReference.cache
+C:\Users\focac\source\repos\IsRotasiProje\IsRotasiProje\obj\Debug\net7.0\IsRotasi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\focac\source\repos\IsRotasiProje\IsRotasiProje\obj\Debug\net7.0\IsRotasi.AssemblyInfoInputs.cache
+C:\Users\focac\source\repos\IsRotasiProje\IsRotasiProje\obj\Debug\net7.0\IsRotasi.AssemblyInfo.cs
+C:\Users\focac\source\repos\IsRotasiProje\IsRotasiProje\obj\Debug\net7.0\IsRotasi.csproj.CoreCompileInputs.cache
+C:\Users\focac\source\repos\IsRotasiProje\IsRotasiProje\obj\Debug\net7.0\IsRotasi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\focac\source\repos\IsRotasiProje\IsRotasiProje\obj\Debug\net7.0\IsRotasi.RazorAssemblyInfo.cache
+C:\Users\focac\source\repos\IsRotasiProje\IsRotasiProje\obj\Debug\net7.0\IsRotasi.RazorAssemblyInfo.cs

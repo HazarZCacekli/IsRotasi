@@ -1,0 +1,115 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<AppUser> SignInManager
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" asp-controller="Home" asp-action="Index">
+            <img src="/images/logo.png" class="img-fluid logo-image">
+
+            <div class="d-flex flex-column">
+                <strong class="logo-text">İşRotası</strong>
+                <small class="logo-slogan">İş Bulma Motoru</small>
+            </div>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav align-items-center ms-lg-5">
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">Anasayfa</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="About" asp-action="Index">Hakkımızda</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="JobList" asp-action="Index" asp-route-page="1">İlanlar</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Contact" asp-action="Index">İletişim</a>
+                </li>
+                <li class="nav-item" style="margin-left:40px;">
+                    <div class="form-outline">
+                        <form asp-controller="JobList" asp-action="SearchTextDirector">
+                            <input type="search" id="form1" class="form-control" placeholder="Ne işi aradığınızı yazın" aria-label="Search" name="search" />
+                        </form>
+                    </div>
+                </li>
+
+                @if (User.IsInRole("Customer"))
+                {
+
+                    <li class="nav-item dropdown ms-lg-auto">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">@User.Identity.Name</a>
+
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                            <li><a class="dropdown-item" asp-controller="Profile" asp-action="AdayCV">Aday Bilgileri</a></li>
+                            <li><a class="dropdown-item" asp-controller="Profile" asp-action="AdayBasvurular">Başvurularım</a></li>
+                            <li><a class="dropdown-item" asp-controller="Profile" asp-action="ChangePassword">Şifre Değiştir</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-btn btn" asp-controller="Login" asp-action="Logout">Çıkış Yap</a>
+                    </li>
+                }
+                else if (User.IsInRole("Company"))
+                {
+                    <li class="nav-item dropdown ms-lg-auto">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">@User.Identity.Name</a>
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                            <li><a class="dropdown-item" asp-controller="Profile" asp-action="IsverenProfile">İşveren Bilgileri</a></li>
+                            <li><a class="dropdown-item" asp-controller="Profile" asp-action="IlanOlustur">İlan Oluştur</a></li>
+                            <li><a class="dropdown-item" asp-controller="Profile" asp-action="IsverenIlanlar">İlanlarım</a></li>
+                            <li><a class="dropdown-item" asp-controller="Profile" asp-action="ChangePassword">Şifre Değiştir</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-btn btn" asp-controller="Login" asp-action="Logout" >Çıkış Yap</a>
+                    </li>
+                }
+                else if (User.IsInRole("Admin"))
+                {
+                    <li class="nav-item dropdown ms-lg-auto">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Admin</a>
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                            <li><a class="dropdown-item" asp-controller="Admin" asp-action="Index">Ana Panel</a></li>
+                            <li><a class="dropdown-item" asp-controller="Admin" asp-action="IlanList">İlan Listesi</a></li>
+                            <li><a class="dropdown-item" asp-controller="Admin" asp-action="IsverenList">İşveren Listesi</a></li>
+                            <li><a class="dropdown-item" asp-controller="Admin" asp-action="AdayList">Aday Listesi</a></li>
+                            <li><a class="dropdown-item" asp-controller="Admin" asp-action="MesajList">Mesaj Listesi</a></li>
+                            <li><a class="dropdown-item" asp-controller="Admin" asp-action="BultenHesapList">Bülten Listesi</a></li>
+                            <li><a class="dropdown-item" asp-controller="Admin" asp-action="BultenMesajYolla">Bülten Email</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-btn btn" asp-controller="Login" asp-action="Logout">Çıkış Yap</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item dropdown ms-lg-auto">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kayıt Ol</a>
+
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                            <li><a class="dropdown-item" asp-controller="Login" asp-action="RegisterIsveren">İşveren</a></li>
+
+                            <li><a class="dropdown-item" asp-controller="Login" asp-action="RegisterAday">Aday</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-btn btn" asp-controller="Login" asp-action="Login">Giriş Yap</a>
+                    </li>
+                }
+
+
+
+
+            </ul>
+        </div>
+    </div>
+</nav>

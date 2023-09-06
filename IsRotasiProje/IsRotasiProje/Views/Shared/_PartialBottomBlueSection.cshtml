@@ -1,0 +1,34 @@
+﻿<section class="cta-section">
+    <div class="section-overlay"></div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6 col-10">
+                <h2 class="text-white mb-2">Şu ana kadar sonuçlanmış 7.000'in üzerinde ilan</h2>
+
+                <p class="text-white">Geniş ağımızla işverenlerimizi takım çalışmasına uygun, özverili , kendini geliştirmiş veya gelişmeye açık iş arkadaşlarıyla buluşturuyoruz! </p>
+            </div>
+
+            <div class="col-lg-4 col-12 ms-auto">
+                <div class="custom-border-btn-wrap d-flex align-items-center mt-lg-4 mt-2">
+                    <a asp-controller="Login" asp-action="RegisterIsveren" class="custom-btn custom-border-btn btn me-4">Hesap Oluşturun</a>
+
+                    @if (User.IsInRole("Company"))
+                    {
+                        <a class="custom-link" asp-controller="Profile" asp-action="IlanOlustur">İlan Yayınlayın</a>
+                    }
+                    else if (User.IsInRole("Customer"))
+                    {
+                        <a class="custom-link" asp-controller="JobList" asp-action="Index" asp-route-page="1">İlanlara Göz Atın</a>
+                    }
+                    else
+                    {
+                        <a class="custom-link" asp-controller="Login" asp-action="Login">İlan Yayınlayın</a>
+                    }
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

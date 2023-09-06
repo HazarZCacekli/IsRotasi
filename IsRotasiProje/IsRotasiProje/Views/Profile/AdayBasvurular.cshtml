@@ -1,0 +1,40 @@
+﻿@using IsRotasiProje.Classes;
+@using IsRotasiProje.ViewModel;
+@{
+    Layout = "_LayoutLogin";
+}
+
+<partial name="_PartialProfileSidebar" />
+@model List<Basvuru>
+<div class="container-login100" style="background-image:url('/images/bg-02.jpg');">
+    <table class="table table-dark table-striped" style="margin-left:240px;margin-bottom:150px;width:75%;">
+        <thead>
+            <tr>
+                <th>Ilan Kodu</th>
+                <th>İlan Kategorisi</th>
+                <th>İlan İsmi</th>
+                <th>İşveren İsim</th>
+                <th>Tarih</th>
+                <th>İlan Detay</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.IlanId</th>
+                    <td>@item.Ilan.Kategori.KategoriIsim</td>
+                    <td>@item.Ilan.IlanAd</td>
+                    <td>@item.User.Ad</td>
+                    <td>@DateWriting.DateWrite(item.Tarih)</td>
+                    <td><a class="btn btn-primary" asp-controller="JobList" asp-action="JobDetails" asp-route-ilanId="@item.IlanId">İlan Detay </a></td>
+                </tr>
+            }
+
+
+
+        </tbody>
+    </table>
+
+</div>

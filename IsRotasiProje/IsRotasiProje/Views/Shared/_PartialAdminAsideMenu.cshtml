@@ -1,0 +1,52 @@
+﻿<aside class="menu-sidebar d-none d-lg-block">
+    <div class="logo">
+        <a asp-controller="Admin" asp-action="Index">
+            <i class="fas fa-sitemap"></i>
+            İş Rotası Admin Paneli
+        </a>
+    </div>
+    <div class="menu-sidebar__content js-scrollbar1">
+        <nav class="navbar-sidebar">
+            <ul class="list-unstyled navbar__list">
+
+                <li>
+                    <a asp-controller="Admin" asp-action="Index">
+                        <i class="fas fa-tachometer-alt"></i>Ana Panel
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Admin" asp-action="IlanList">
+                        <i class="fas fa-table"></i>İlan Listesi
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Admin" asp-action="IsverenList">
+                        <i class="fas  fa-users"></i>İşveren Listesi
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Admin" asp-action="AdayList">
+                        <i class="fas fa-user"></i>Aday Listesi
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Admin" asp-action="MesajList">
+                        <i class="fas fa-comment"></i>Mesaj Listesi
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Admin" asp-action="BultenHesapList">
+                        <i class="fas fa-table"></i>Bülten Hesap Listesi
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Admin" asp-action="BultenMesajYolla">
+                        <i class="fas fa-plus"></i>Bülten Email Gönder
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</aside>

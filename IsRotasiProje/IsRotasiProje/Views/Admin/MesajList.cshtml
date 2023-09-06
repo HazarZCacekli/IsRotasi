@@ -1,0 +1,108 @@
+﻿@using IsRotasiProje.Classes;
+@using IsRotasiProje.Models
+@{
+    Layout = "_LayoutAdmin";
+}
+@model List<Iletisim>
+
+<div class="main-content">
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="title-1 m-b-25">Tüm Mesajlar</h2>
+                    <div class="table-responsive table--no-card m-b-40">
+                        <table class="table table-borderless table-striped table-earning">
+                            <thead>
+                                <tr>
+                                    <th>Oluşturulma Tarihi</th>
+                                    <th>Gönderen İsim</th>
+                                    <th>Email</th>
+                                    <th>Mesaj Detayları</th>
+                                    <th>Mesajı Sil</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                <tr>
+                                    <td>@DateWriting.DateWrite(item.Tarih)</td>
+                                    <td>@item.AdSoyad</td>
+                                    <td>@item.Email</td>
+                                    <td><a class="btn btn-outline-primary" asp-controller="Admin" asp-action="MesajDetay" asp-route-id="@item.IletisimId">Detay </a></td>
+                                        <td><a class="btn btn-outline-danger btnSil" data-toggle="modal" data-target="#exampleModal" data-iletisimAdi="@item.AdSoyad" data-iletisimId="@item.IletisimId">Sil</a></td>
+                                </tr>
+                                }
+                                
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section body
+    {
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Mesajı sil</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="mesaj"> </p>
+                    <p class="hata"> </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">İptal</button>
+                    <button type="button" class="btn btn-primary mesajSil">Evet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+@section scripts
+    {
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(".btnSil").click(function () {
+            $(".modal-body>p.hata").html = "";
+            var mesaj = $(this).attr("data-iletisimAdi");
+            $(".modal-body>p.mesaj").html(mesaj + "kişisinden gelen mesaj silinsin mi?");
+            var mesajID = $(this).attr("data-iletisimId");
+            $(".mesajSil").data("mesajID", mesajID);
+
+        });
+
+
+
+        $(".mesajSil").click(function () {
+            var id = $(this).data("mesajID");
+            $.ajax({
+                type: "POST",
+                url: "/Admin/MesajSil/" + id,
+                success: function (param) {
+                    if (param == 1) {
+                        window.location.replace("/Admin/MessageList");
+                    }
+                    else {
+                        $(".modal-body>p.hata").html("Hata nedeniyle silinemedi");
+                    }
+
+                }
+            })
+
+        });
+    </script>
+}

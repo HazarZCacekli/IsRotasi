@@ -1,0 +1,277 @@
+﻿@using IsRotasiProje.Classes;
+@using IsRotasiProje.ViewModel;
+@model List<Ilan>
+
+
+<main>
+
+    <header class="site-header">
+        <div class="section-overlay"></div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-12 text-center">
+                    <h1 class="text-white">İş İlanları</h1>
+
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+
+                            <li class="breadcrumb-item active" aria-current="page">İlanlar</li>
+                        </ol>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="section-padding pb-0 d-flex justify-content-center align-items-center">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-12">
+                    <form class="custom-form hero-form" method="get" role="form" asp-controller="JobList" asp-action="Index">
+                        <input type="hidden" value="1" name="page">
+                        <h3 class="text-white mb-3">Hayalinizdeki işi arayın</h3>
+
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon1"><i class="bi-person custom-icon"></i></span>
+                                    <select class="form-select form-control" name="kategori" id="job-title" aria-label="Default select example" required>
+                                        <option value="">İş Kategorisi Seçin</option>
+                                        @foreach (Kategori item in ViewBag.Kategori)
+                                        {
+                                            <option value="@item.KategoriId">@item.KategoriIsim</option>
+                                        }
+                                    </select>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon1"><i class="bi-geo-alt custom-icon"></i></span>
+                                    <select class="form-select form-control" name="sehir" id="job-location" aria-label="Default select example" required>
+                                        <option value="">Lokasyon Seçin</option>
+                                        @foreach (Sehir item in ViewBag.Sehir)
+                                        {
+                                            <option value="@item.SehirId">@item.SehirIsim</option>
+                                        }
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon1"><i class="bi-cash custom-icon"></i></span>
+
+                                    <select class="form-select form-control" name="maas" id="job-salary" aria-label="Default select example" required>
+                                        <option value="">Maaş Aralığı Seçin</option>
+                                    @foreach (MaasAraligi item in ViewBag.Maas)
+                                    {
+                                        <option value="@item.MaasAraligiId">@item.Aralik</option>
+                                    }
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon1"><i class="bi-laptop custom-icon"></i></span>
+
+                                    <select class="form-select form-control" name="pozisyon" id="job-level" aria-label="Default select example" required>
+                                        <option value="">Pozisyon Seçin</option>
+                                        @foreach (Pozisyon item in ViewBag.Pozisyon)
+                                        {
+                                            <option value="@item.PozisyonId">@item.PozisyonIsim</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon1"><i class="bi-laptop custom-icon"></i></span>
+
+                                    <select class="form-select form-control" name="calisma" id="job-remote" aria-label="Default select example" required>
+                                        <option value="">Çalışma Şekli Seçin</option>
+                                        @foreach (CalismaSekli item in ViewBag.Calisma)
+                                        {
+                                            <option value="@item.CalismaSekliId">@item.CalismaSekliIsim</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-12">
+                                <button type="submit" class="form-control">
+                                    Ara
+                                </button>
+                            </div>
+
+                            <div class="col-12">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <img src="images/4557388.png" class="hero-image img-fluid" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="job-section section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 col-12 mb-lg-4">
+                    <h3>Arama Sonuçları</h3>
+                </div>
+
+                <div class="col-lg-4 col-12 d-flex align-items-center ms-auto mb-5 mb-lg-4">
+                            <p class="mb-0 ms-lg-auto">Sırala:</p>
+
+                            <div class="dropdown dropdown-sorting ms-3 me-4">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownSortingButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Yeniden Eskiye
+                                </button>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSortingButton">
+
+                            <li><a class="dropdown-item" asp-controller="JobList" asp-action="Index" asp-route-page="1" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="1">Maaş Azalan</a></li>
+
+                            <li><a class="dropdown-item" asp-controller="JobList" asp-action="Index" asp-route-page="1" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="2">Maaş Artan</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                @foreach (var item in Model)
+                {
+                    <div class="job-thumb d-flex">
+                        <div class="job-image-wrap bg-white shadow-lg">
+                            <img src="/images/@item.User.Image" class="job-image img-fluid" alt="">
+                        </div>
+
+                        <div class="job-body d-flex flex-wrap flex-auto align-items-center ms-4">
+                            <div class="mb-3">
+                                <h4 class="job-title mb-lg-0">
+                                    <a asp-controller="JobList" asp-action="JobDetails" asp-route-ilanId="@item.IlanId" class="job-title-link">@item.IlanAd</a>
+                                </h4>
+
+                                <div class="d-flex flex-wrap align-items-center">
+                                    <p class="job-location mb-0">
+                                        <i class="custom-icon bi-geo-alt me-1"></i>
+                                        @item.Sehir.SehirIsim
+                                    </p>
+
+                                    <p class="job-date mb-0">
+                                        <i class="custom-icon bi-clock me-1"></i>
+                                        @DateWriting.DateWrite(item.Tarih)
+                                    </p>
+
+                                    <p class="job-price mb-0">
+                                        <i class="custom-icon bi-cash me-1"></i>
+                                        @item.MaasAraligi.Aralik
+                                    </p>
+
+                                    <div class="d-flex" >
+                                        <p class="mb-0">
+                                            <a class="badge badge-level">@item.Pozisyon.PozisyonIsim</a>
+                                        </p>
+
+                                        <p class="mb-0">
+                                            <a class="badge">@item.CalismaSekli.CalismaSekliIsim</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="job-section-btn-wrap">
+                                <a asp-controller="JobList" asp-action="JobDetails" asp-route-ilanId="@item.IlanId" class="custom-btn btn">Hemen Başvur</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                <div class="col-lg-12 col-12">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center mt-5">
+                            
+                            
+                            @if (ViewBag.Page != 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" asp-controller="JobList" asp-action="Index" asp-route-page="@((int)ViewBag.Page - 1)" aria-label="Previous" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="@ViewBag.Sort">
+                                        <span aria-hidden="true">Önceki</span>
+                                    </a>
+                                </li>
+                                <li class="page-item" >
+                                    <a class="page-link" asp-controller="JobList" asp-action="Index" asp-route-page="@((int)ViewBag.Page - 1)" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="@ViewBag.Sort">@((int)ViewBag.Page - 1)</a>
+                                </li>
+                                <li class="page-item active">
+                                    <a class="page-link" aria-current="page" asp-controller="JobList" asp-action="Index" asp-route-page="@ViewBag.Page" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="@ViewBag.Sort">@ViewBag.Page</a>
+                                </li>
+                                if (ViewBag.PageCount > ViewBag.Page)
+                                {
+                                    <li class="page-item">
+                                        <a class="page-link" asp-controller="JobList" asp-action="Index" asp-route-page="@((int)ViewBag.Page + 1)" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="@ViewBag.Sort">@((int)ViewBag.Page + 1)</a>
+                                    </li>
+                                }
+                            }
+                            else if(ViewBag.PageCount < 3)
+                            {
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" asp-controller="JobList" asp-action="Index" asp-route-page="1" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="@ViewBag.Sort">1</a>
+                                </li>
+                                for (int i = 2; i <= ViewBag.PageCount; i++)
+                                {
+                                    <li class="page-item" aria-current="page">
+                                        <a class="page-link" asp-controller="JobList" asp-action="Index" asp-route-page="@i" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="@ViewBag.Sort">@i</a>
+                                    </li>
+                                } 
+                            }
+                            else
+                            {
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" asp-controller="JobList" asp-action="Index" asp-route-page="1" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="@ViewBag.Sort">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" asp-controller="JobList" asp-action="Index" asp-route-page="2" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="@ViewBag.Sort">2</a>
+                                </li>
+
+                                <li class="page-item">
+                                    <a class="page-link" asp-controller="JobList" asp-action="Index" asp-route-page="3" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="@ViewBag.Sort">3</a>
+                                </li>
+                            }
+                            @if (ViewBag.Page != ViewBag.PageCount && ViewBag.PageCount > 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" asp-controller="JobList" asp-action="Index" asp-route-page="@((int)ViewBag.Page + 1)" aria-label="Next" asp-route-kategori="@ViewBag.KategoriParam" asp-route-sehir="@ViewBag.SehirParam" asp-route-maas="@ViewBag.MaasParam" asp-route-pozisyon="@ViewBag.PozisyonParam" asp-route-calisma="@ViewBag.CalismaParam" asp-route-search="@ViewBag.SearchParam" asp-route-sort="@ViewBag.Sort">
+                                        <span aria-hidden="true">Sonraki</span>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <partial name="_PartialCommentsSection" />
+
+    <partial name="_PartialBottomBlueSection" />
+</main>
+
+

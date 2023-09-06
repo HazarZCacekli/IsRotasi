@@ -1,0 +1,73 @@
+﻿@{
+    Layout = "_LayoutLogin";
+}
+@model AppUser
+<partial name="_PartialProfileSidebar" />
+
+<div class="container-login100" style="background-image:url('/images/bg-02.jpg');">
+    <div class="col-lg-8" style="margin-left:230px;">
+        <div class="card">
+            <div class="card-header">İşveren</div>
+            <div class="card-body">
+                <div class="card-title">
+                    <h3 class="text-center title-2">Bilgilerim</h3>
+                </div>
+                <hr>
+                <form method="post" asp-controller="Profile" asp-action="IsverenProfile" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="@Model.Image" value="@Model.Image">
+                    <input type="hidden" asp-for="@Model.Tarih" value="@Model.Tarih">
+                    <input type="hidden" asp-for="@Model.UserName" value="@Model.UserName">
+                    <div class="row form-group">
+                        <div class="col-6">
+                            <img src="/images/@Model.Image" class="img-thumbnail" alt="" style="height:250px;width:200px;margin-left:185px;">
+                        </div>
+                        <div class="col-6">
+                            <label for="file-input" class=" form-control-label">Şirket Logonuz</label>
+                            <input type="file" id="file-input" name="photo" class="form-control-file">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="name" class="control-label mb-1">İsim</label>
+                                <input id="name" type="text" class="form-control" aria-invalid="false" disabled value="@Model.Ad" asp-for="@Model.Ad">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="email" class="control-label mb-1">E-Mail Adresi</label>
+                                <input id="email" type="email" class="form-control" aria-invalid="false" disabled value="@Model.Email" asp-for="@Model.Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="phone" class="control-label mb-1">Telefon Numarası</label>
+                                <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" aria-invalid="false" value="@Model.PhoneNumber" placeholder="555-555-5555" asp-for="@Model.PhoneNumber">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="website" class="control-label mb-1">Websitesi</label>
+                                <input id="website" type="text" class="form-control" aria-invalid="false" value="@Model.Website" asp-for="@Model.Website">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exp" class="control-label mb-1">Şirket Hakkında Özet</label>
+                        <textarea id="exp" type="text" class="form-control" aria-invalid="false" asp-for="@Model.Ozet">@Model.Ozet</textarea>
+                    </div>
+                    <div>
+                        <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
+                            <i class="fa fa-lock fa-lg"></i>&nbsp;
+                            <span id="payment-button-amount">Kaydet</span>
+
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

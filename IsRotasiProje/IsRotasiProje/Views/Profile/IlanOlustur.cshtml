@@ -1,0 +1,112 @@
+﻿@{
+    Layout = "_LayoutLogin";
+}
+
+
+<partial name="_PartialProfileSidebar" />
+
+
+<div class="container-login100" style="background-image:url('/images/bg-02.jpg');">
+    <div class="col-lg-8" style="margin-left:230px;">
+        <div class="card">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+                <div class="card-title">
+                    <h3 class="text-center title-2">İlan Oluştur</h3>
+
+                </div>
+                <hr>
+                <form  method="post" asp-controller="Profile" asp-action="IlanOlustur">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <select class="form-select" aria-label="Default select example" name="KategoriId" required>
+                                    <option value="">İş Kategorisi Seçin</option>
+                                    @foreach (Kategori item in ViewBag.Kategori)
+                                    {
+                                        <option value="@item.KategoriId">@item.KategoriIsim</option>
+                                    }
+                                    
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <select class="form-select" aria-label="Default select example" name="SehirId" required>
+                                    <option value="">Lokasyon Seçin</option>
+                                    @foreach (Sehir item in ViewBag.Sehir)
+                                    {
+                                            <option value="@item.SehirId">@item.SehirIsim</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <select class="form-select" aria-label="Default select example" name="MaasAraligiId" required>
+                                    <option value="">Maaş Aralığı Seçin</option>
+                                    @foreach (MaasAraligi item in ViewBag.Maas)
+                                    {
+                                        <option value="@item.MaasAraligiId">@item.Aralik</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <select class="form-select" aria-label="Default select example" name="PozisyonId"required>
+                                    <option value="">Pozisyon Seçin</option>
+                                    @foreach (Pozisyon item in ViewBag.Pozisyon)
+                                    {
+                                            <option value="@item.PozisyonId">@item.PozisyonIsim</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <select class="form-select" aria-label="Default select example" name="CalismaSekliId" required>
+                                    <option value="">Çalışma Şekli Seçin</option>
+                                    @foreach (CalismaSekli item in ViewBag.Calisma)
+                                    {
+                                            <option value="@item.CalismaSekliId">@item.CalismaSekliIsim</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <input id="tanim" type="text" class="form-control" aria-invalid="false" placeholder="İşin Kısa Adı" name="IlanAd" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <textarea id="require" type="text" class="form-control" aria-invalid="false" placeholder="Aday Gereklilikler" name="AdayGereklilik" required></textarea>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <textarea id="tanim" type="text" class="form-control" aria-invalid="false" placeholder="İş Tanımı" name="IsTanimi" required></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button id="create" type="submit" class="btn btn-lg btn-info btn-block">
+                            <span id="create">İlanı Oluştur</span>
+
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

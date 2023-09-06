@@ -1,0 +1,1457 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\IsRotasiProje.bundle.scp.css",
+      "PackagePath": "staticwebassets\\IsRotasiProje.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\font-face.css",
+      "PackagePath": "staticwebassets\\css\\font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\theme.css",
+      "PackagePath": "staticwebassets\\css\\theme.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\tooplate-gotto-job.css",
+      "PackagePath": "staticwebassets\\css\\tooplate-gotto-job.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\css\\util.css",
+      "PackagePath": "staticwebassets\\css\\util.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\iconic\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\iconic\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-100.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-100.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-100.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-100.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-100.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-100.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-100.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-100.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-100.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-100.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-100italic.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-100italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-100italic.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-100italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-100italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-100italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-100italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-100italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-100italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-100italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-200.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-200.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-200.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-200.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-200.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-200.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-200.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-200.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-200.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-200.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-200italic.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-200italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-200italic.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-200italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-200italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-200italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-200italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-200italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-200italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-200italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600italic.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600italic.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900italic.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900italic.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\04fa50ea-66c5-48a5-8b61-83125d115e7f.jpg",
+      "PackagePath": "staticwebassets\\images\\04fa50ea-66c5-48a5-8b61-83125d115e7f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\1fb02c2a-46b3-4a5e-a93c-c075e1425865.png",
+      "PackagePath": "staticwebassets\\images\\1fb02c2a-46b3-4a5e-a93c-c075e1425865.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\3d127991-693c-4909-aec8-3f9ca13d188d.jpg",
+      "PackagePath": "staticwebassets\\images\\3d127991-693c-4909-aec8-3f9ca13d188d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\680598b1-c388-4434-9101-0c224e092d0b.jpg",
+      "PackagePath": "staticwebassets\\images\\680598b1-c388-4434-9101-0c224e092d0b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\7476f586-31e4-4c23-b9b1-5995fe9faad4.jpg",
+      "PackagePath": "staticwebassets\\images\\7476f586-31e4-4c23-b9b1-5995fe9faad4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\8aab77ea-73ce-4ebd-af23-9e7e985cae04.png",
+      "PackagePath": "staticwebassets\\images\\8aab77ea-73ce-4ebd-af23-9e7e985cae04.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\avatar\\blond-man-happy-expression.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\blond-man-happy-expression.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\avatar\\medium-shot-smiley-senior-man.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\medium-shot-smiley-senior-man.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\avatar\\portrait-beautiful-young-woman.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\portrait-beautiful-young-woman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\avatar\\portrait-charming-middle-aged-attractive-woman-with-blonde-hair.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\portrait-charming-middle-aged-attractive-woman-with-blonde-hair.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\avatar\\university-study-abroad-lifestyle-concept.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\university-study-abroad-lifestyle-concept.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\bg-01.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\bg-02.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\close-up-young-business-team-working.jpg",
+      "PackagePath": "staticwebassets\\images\\close-up-young-business-team-working.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\f68d35e9-2381-498d-a3a6-07861f08cd28.jpg",
+      "PackagePath": "staticwebassets\\images\\f68d35e9-2381-498d-a3a6-07861f08cd28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\horizontal-shot-happy-mixed-race-females.jpg",
+      "PackagePath": "staticwebassets\\images\\horizontal-shot-happy-mixed-race-females.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\icon\\avatar-01.jpg",
+      "PackagePath": "staticwebassets\\images\\icon\\avatar-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\icon\\avatar-big-01.jpg",
+      "PackagePath": "staticwebassets\\images\\icon\\avatar-big-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\icons\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\jobs\\coding-man.jpg",
+      "PackagePath": "staticwebassets\\images\\jobs\\coding-man.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\jobs\\it-professional-works-startup-project.jpg",
+      "PackagePath": "staticwebassets\\images\\jobs\\it-professional-works-startup-project.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\jobs\\logo-designer-working-computer-desktop.jpg",
+      "PackagePath": "staticwebassets\\images\\jobs\\logo-designer-working-computer-desktop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\jobs\\marketing-assistant.jpg",
+      "PackagePath": "staticwebassets\\images\\jobs\\marketing-assistant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\jobs\\paper-analysis.jpg",
+      "PackagePath": "staticwebassets\\images\\jobs\\paper-analysis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\jobs\\portrait-woman-customer-service-worker.jpg",
+      "PackagePath": "staticwebassets\\images\\jobs\\portrait-woman-customer-service-worker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\jobs\\pretty-blogger-posing-cozy-apartment.jpg",
+      "PackagePath": "staticwebassets\\images\\jobs\\pretty-blogger-posing-cozy-apartment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\jobs\\sound-engineer-working-studio-with-equipment.jpg",
+      "PackagePath": "staticwebassets\\images\\jobs\\sound-engineer-working-studio-with-equipment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\jobs\\young-woman-teaching-english-lessons.jpg",
+      "PackagePath": "staticwebassets\\images\\jobs\\young-woman-teaching-english-lessons.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\left-quote.png",
+      "PackagePath": "staticwebassets\\images\\left-quote.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\apple.png",
+      "PackagePath": "staticwebassets\\images\\logos\\apple.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\creative-market.png",
+      "PackagePath": "staticwebassets\\images\\logos\\creative-market.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\dropbox.png",
+      "PackagePath": "staticwebassets\\images\\logos\\dropbox.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\envato.png",
+      "PackagePath": "staticwebassets\\images\\logos\\envato.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\google.png",
+      "PackagePath": "staticwebassets\\images\\logos\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\meta.png",
+      "PackagePath": "staticwebassets\\images\\logos\\meta.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\microsoft.png",
+      "PackagePath": "staticwebassets\\images\\logos\\microsoft.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\paypal.png",
+      "PackagePath": "staticwebassets\\images\\logos\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\salesforce.png",
+      "PackagePath": "staticwebassets\\images\\logos\\salesforce.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\shopify.png",
+      "PackagePath": "staticwebassets\\images\\logos\\shopify.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\slack.png",
+      "PackagePath": "staticwebassets\\images\\logos\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\soundcloud.png",
+      "PackagePath": "staticwebassets\\images\\logos\\soundcloud.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\spotify.png",
+      "PackagePath": "staticwebassets\\images\\logos\\spotify.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\twitter.png",
+      "PackagePath": "staticwebassets\\images\\logos\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\logos\\yelp.png",
+      "PackagePath": "staticwebassets\\images\\logos\\yelp.png"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\millennial-group-young-businesspeople.jpg",
+      "PackagePath": "staticwebassets\\images\\millennial-group-young-businesspeople.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\noimage.jpg",
+      "PackagePath": "staticwebassets\\images\\noimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\people-working-as-team-company.jpg",
+      "PackagePath": "staticwebassets\\images\\people-working-as-team-company.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\professional-asian-businesswoman-gray-blazer.jpg",
+      "PackagePath": "staticwebassets\\images\\professional-asian-businesswoman-gray-blazer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\images\\site-header\\close-up-young-business-team-working.jpg",
+      "PackagePath": "staticwebassets\\images\\site-header\\close-up-young-business-team-working.jpg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\js\\bootstrap-datetimepicker.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-datetimepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\js\\counter.js",
+      "PackagePath": "staticwebassets\\js\\counter.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\js\\mainadmin.js",
+      "PackagePath": "staticwebassets\\js\\mainadmin.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\js\\moment.js",
+      "PackagePath": "staticwebassets\\js\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\animsition\\animsition.min.css",
+      "PackagePath": "staticwebassets\\vendor\\animsition\\animsition.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\animsition\\animsition.min.js",
+      "PackagePath": "staticwebassets\\vendor\\animsition\\animsition.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\animsition\\css\\animsition.css",
+      "PackagePath": "staticwebassets\\vendor\\animsition\\css\\animsition.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\animsition\\css\\animsition.min.css",
+      "PackagePath": "staticwebassets\\vendor\\animsition\\css\\animsition.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\animsition\\js\\animsition.js",
+      "PackagePath": "staticwebassets\\vendor\\animsition\\js\\animsition.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\animsition\\js\\animsition.min.js",
+      "PackagePath": "staticwebassets\\vendor\\animsition\\js\\animsition.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap-4.1\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-4.1\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap-4.1\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-4.1\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap-4.1\\popper.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-4.1\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\countdowntime\\countdowntime.js",
+      "PackagePath": "staticwebassets\\vendor\\countdowntime\\countdowntime.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\vendor\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\vendor\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\daterangepicker\\moment.js",
+      "PackagePath": "staticwebassets\\vendor\\daterangepicker\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\daterangepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\vendor\\daterangepicker\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-4.7\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-4.7\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-4.7\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-4.7\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-4.7\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-4.7\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-4.7\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-4.7\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\css\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\mdi-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\vendor\\mdi-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\mdi-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\vendor\\mdi-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\vendor\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\focac\\source\\repos\\IsRotasiProje\\IsRotasiProje\\wwwroot\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.IsRotasiProje.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.IsRotasiProje.props",
+      "PackagePath": "build\\IsRotasiProje.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.IsRotasiProje.props",
+      "PackagePath": "buildMultiTargeting\\IsRotasiProje.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.IsRotasiProje.props",
+      "PackagePath": "buildTransitive\\IsRotasiProje.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

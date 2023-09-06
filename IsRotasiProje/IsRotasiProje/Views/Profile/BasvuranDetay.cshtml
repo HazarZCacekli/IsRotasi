@@ -1,0 +1,89 @@
+﻿@{
+    Layout = "_LayoutLogin";
+}
+<partial name="_PartialProfileSidebar" />
+@model AppUser
+
+<div class="container-login100" style="background-image:url('/images/bg-02.jpg');">
+    <div class="col-lg-8" style="margin-left:230px;">
+        <div class="card">
+            <div class="card-header">Özgeçmiş (CV)</div>
+            <div class="card-body">
+                <div class="card-title">
+                    <h3 class="text-center title-2">Başvuran Bilgileri</h3>
+                </div>
+                <hr>
+                    <div class="row form-group">
+                        <div class="col-6">
+                            <img src="/images/@Model.Image" class="img-thumbnail" alt="" style="height:250px;width:200px;margin-left:185px;">
+                        </div>
+                        <div class="col-6">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="name" class="control-label mb-1">Ad Soyad</label>
+                                <input id="name" type="text" class="form-control" aria-invalid="false" disabled value="@Model.Ad">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="email" class="control-label mb-1">E-Mail Adresi</label>
+                                <input id="email" type="email" class="form-control" aria-invalid="false" disabled value="@Model.Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="phone" class="control-label mb-1">Telefon Numarası</label>
+                                <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" disabled aria-invalid="false" value="@Model.PhoneNumber" >
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="borndate" class="control-label mb-1">Doğum Tarihi</label>
+                                <input id="borndate" type="date" class="form-control" aria-invalid="false" disabled value="@Model.DogumTarihi">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="exp" class="control-label mb-1">Deneyim</label>
+                                <textarea id="exp" type="text" class="form-control" aria-invalid="false" disabled>@Model.Deneyim</textarea>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="education" class="control-label mb-1">Eğitim Bilgileri</label>
+                                <textarea id="education" type="text" class="form-control" aria-invalid="false" disabled>@Model.Egitim</textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="exp" class="control-label mb-1">Bilgisayar Bilgisi </label>
+                                <textarea id="exp" type="text" class="form-control" aria-invalid="false" placeholder="Örn: Office Programları" disabled>@Model.Bilgisayar</textarea>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="hobby" class="control-label mb-1">Hobiler ve İlgi Alanları</label>
+                                <textarea id="hobby" type="text" class="form-control" aria-invalid="false" disabled>@Model.Hobi</textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exp" class="control-label mb-1">Özet Bilgi ve Önyazı </label>
+                        <textarea id="exp" type="text" class="form-control" aria-invalid="false" disabled>@Model.Ozet</textarea>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

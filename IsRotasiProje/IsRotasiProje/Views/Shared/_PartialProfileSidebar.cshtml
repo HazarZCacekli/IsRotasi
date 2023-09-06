@@ -1,0 +1,90 @@
+﻿<nav class="sidebar" style="margin-top:40px;">
+    <div class="menu_content">
+        <ul class="menu_items">
+
+            @if (User.IsInRole("Company"))
+            {
+                <li class="item">
+                    <a asp-controller="Profile" asp-action="IsverenProfile" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-copy-alt"></i>
+                        </span>
+                        <span class="navlink">Bilgilerim</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a asp-controller="Profile" asp-action="IlanOlustur" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-plus-circle"></i>
+                        </span>
+                        <span class="navlink">İlan Oluştur</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a asp-controller="Profile" asp-action="IsverenIlanlar" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-filter"></i>
+                        </span>
+                        <span class="navlink">İlanlarım</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a asp-controller="Profile" asp-action="ChangePassword" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-lock"></i>
+                        </span>
+                        <span class="navlink">Şifre Değiştir</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a asp-controller="Login" asp-action="Logout" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-log-out"></i>
+                        </span>
+                        <span class="navlink">Çıkış Yap</span>
+                    </a>
+                </li>
+            }
+            else
+            {
+                <li class="item">
+                    <a asp-controller="Profile" asp-action="AdayCV" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-briefcase"></i>
+                        </span>
+                        <span class="navlink">Özgeçmiş (CV)</span>
+                    </a>
+                </li>
+
+
+                <li class="item">
+                    <a asp-controller="Profile" asp-action="AdayBasvurular" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-filter"></i>
+                        </span>
+                        <span class="navlink">Başvurularım</span>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a asp-controller="Profile" asp-action="ChangePassword" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-lock"></i>
+                        </span>
+                        <span class="navlink">Şifre Değiştir</span>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a asp-controller="Login" asp-action="Logout" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-log-out"></i>
+                        </span>
+                        <span class="navlink">Çıkış Yap</span>
+                    </a>
+                </li>
+            }
+
+        </ul>
+    </div>
+</nav>
